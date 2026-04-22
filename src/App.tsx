@@ -1,7 +1,11 @@
-import cvData from './data/cv-data.json';
+// Types
 import type { CVData } from './types/cv';
+
+// Components
 import PDFPreview from './preview/PDFPreview';
-import './index.css';
+
+// Data
+import cvData from './data/cv-data.json';
 
 const data = cvData as CVData;
 

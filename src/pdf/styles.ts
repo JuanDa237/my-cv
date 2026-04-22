@@ -32,7 +32,7 @@ export const styles = StyleSheet.create({
     fontSize: 22,
     color: COLORS.name,
     letterSpacing: 0.4,
-    marginBottom: 3,
+    marginBottom: 10,
   },
   jobTitle: {
     fontFamily: 'Helvetica',

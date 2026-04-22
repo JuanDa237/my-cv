@@ -1,4 +1,4 @@
-import { View, Text } from '@react-pdf/renderer';
+import { View, Text, Link } from '@react-pdf/renderer';
 import { styles } from './styles';
 import type { CVData } from '../types/cv';
 
@@ -9,26 +9,34 @@ interface Props {
 export default function Header({ data }: Props) {
   const { name, title, contact } = data;
 
-  const contactParts = [
-    contact.email,
-    contact.phone,
-    contact.location,
-    contact.linkedin,
-    contact.github,
-    contact.website,
-  ].filter(Boolean) as string[];
+  const contactItems = [
+    { text: contact.email, href: `mailto:${contact.email}` },
+    { text: contact.phone, href: `tel:${contact.phone}` },
+    { text: contact.location, href: null },
+    { text: contact.linkedin, href: contact.linkedin },
+    { text: contact.github, href: contact.github },
+    { text: contact.website, href: contact.website },
+  ].filter(item => item.text);
 
   return (
     <View style={styles.headerSection}>
       <Text style={styles.name}>{name}</Text>
       <Text style={styles.jobTitle}>{title}</Text>
       <View style={styles.contactRow}>
-        {contactParts.map((item, i) => (
-          <View key={i} style={{ flexDirection: 'row' }}>
-            {i > 0 && <Text style={styles.contactSeparator}> · </Text>}
-            <Text style={styles.contactItem}>{item}</Text>
-          </View>
-        ))}
+        <Text style={styles.contactItem}>
+          {contactItems.map((item, i) => (
+            <Text key={i}>
+              {i > 0 && ' · '}
+              {item.href ? (
+                <Link src={item.href} style={{ color: styles.contactItem.color }}>
+                  {item.text}
+                </Link>
+              ) : (
+                item.text
+              )}
+            </Text>
+          ))}
+        </Text>
       </View>
     </View>
   );
