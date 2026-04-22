@@ -1,104 +1,76 @@
 {
-    "name": "Juan Gaviria",
-    "title": "Full Stack Software Developer",
-    "contact": {
-        "email": "juan.gaviria@example.com",
-        "phone": "+1 (555) 123-4567",
-        "location": "City, Country",
-        "linkedin": "linkedin.com/in/juan-gaviria",
-        "github": "github.com/juan-gaviria"
+  "name": "Juan Gaviria",
+  "title": "Full Stack Software Developer",
+  "contact": {
+    "email": "juan.gaviria@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "City, Country",
+    "linkedin": "linkedin.com/in/juan-gaviria",
+    "github": "github.com/juan-gaviria"
+  },
+  "experience": [
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "Tech Company Inc.",
+      "location": "City, Country",
+      "startDate": "Jan 2023",
+      "endDate": "Present",
+      "highlights": [
+        "Led development of a microservices architecture serving 50K+ daily active users, reducing API response times by 40%",
+        "Designed and implemented CI/CD pipelines with GitHub Actions, cutting deployment time from 2 hours to 15 minutes",
+        "Mentored a team of 4 junior developers through code reviews and pair programming sessions"
+      ]
     },
-    "experience": [
-        {
-            "title": "Senior Full Stack Developer",
-            "company": "Tech Company Inc.",
-            "location": "City, Country",
-            "startDate": "Jan 2023",
-            "endDate": "Present",
-            "highlights": [
-                "Led development of a microservices architecture serving 50K+ daily active users, reducing API response times by 40%",
-                "Designed and implemented CI/CD pipelines with GitHub Actions, cutting deployment time from 2 hours to 15 minutes",
-                "Mentored a team of 4 junior developers through code reviews and pair programming sessions"
-            ]
-        },
-        {
-            "title": "Full Stack Developer",
-            "company": "Startup Labs",
-            "location": "City, Country",
-            "startDate": "Jun 2021",
-            "endDate": "Dec 2022",
-            "highlights": [
-                "Built a real-time dashboard using React, TypeScript, and WebSockets, handling 10K concurrent connections",
-                "Developed RESTful APIs with Node.js and Express, integrated with PostgreSQL and Redis caching layer",
-                "Improved application performance by implementing lazy loading and code splitting, reducing initial load time by 60%"
-            ]
-        },
-        {
-            "title": "Junior Developer",
-            "company": "Digital Agency Co.",
-            "location": "City, Country",
-            "startDate": "Jan 2020",
-            "endDate": "May 2021",
-            "highlights": [
-                "Developed and maintained 10+ client-facing web applications using React and Vue.js",
-                "Implemented responsive designs from Figma mockups with pixel-perfect accuracy",
-                "Wrote unit and integration tests achieving 85% code coverage across projects"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "University of Technology",
-            "degree": "Bachelor of Science",
-            "field": "Computer Science",
-            "startDate": "2016",
-            "endDate": "2020"
-        }
-    ],
-    "skills": [
-        {
-            "category": "Languages",
-            "items": [
-                "TypeScript",
-                "JavaScript",
-                "Python",
-                "SQL",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "category": "Frameworks & Libraries",
-            "items": [
-                "React",
-                "Next.js",
-                "Node.js",
-                "Express",
-                "Astro",
-                "Tailwind CSS"
-            ]
-        },
-        {
-            "category": "Databases & Infrastructure",
-            "items": [
-                "PostgreSQL",
-                "MongoDB",
-                "Redis",
-                "Docker",
-                "AWS",
-                "GitHub Actions"
-            ]
-        },
-        {
-            "category": "Tools & Practices",
-            "items": [
-                "Git",
-                "REST APIs",
-                "GraphQL",
-                "CI/CD",
-                "Agile/Scrum",
-                "TDD"
-            ]
-        }
-    ]
+    {
+      "title": "Full Stack Developer",
+      "company": "Startup Labs",
+      "location": "City, Country",
+      "startDate": "Jun 2021",
+      "endDate": "Dec 2022",
+      "highlights": [
+        "Built a real-time dashboard using React, TypeScript, and WebSockets, handling 10K concurrent connections",
+        "Developed RESTful APIs with Node.js and Express, integrated with PostgreSQL and Redis caching layer",
+        "Improved application performance by implementing lazy loading and code splitting, reducing initial load time by 60%"
+      ]
+    },
+    {
+      "title": "Junior Developer",
+      "company": "Digital Agency Co.",
+      "location": "City, Country",
+      "startDate": "Jan 2020",
+      "endDate": "May 2021",
+      "highlights": [
+        "Developed and maintained 10+ client-facing web applications using React and Vue.js",
+        "Implemented responsive designs from Figma mockups with pixel-perfect accuracy",
+        "Wrote unit and integration tests achieving 85% code coverage across projects"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Technology",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "startDate": "2016",
+      "endDate": "2020"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["TypeScript", "JavaScript", "Python", "SQL", "HTML", "CSS"]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "items": ["React", "Next.js", "Node.js", "Express", "Astro", "Tailwind CSS"]
+    },
+    {
+      "category": "Databases & Infrastructure",
+      "items": ["PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "GitHub Actions"]
+    },
+    {
+      "category": "Tools & Practices",
+      "items": ["Git", "REST APIs", "GraphQL", "CI/CD", "Agile/Scrum", "TDD"]
+    }
+  ]
 }

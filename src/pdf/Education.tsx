@@ -1,6 +1,6 @@
-import { View, Text } from "@react-pdf/renderer";
-import { styles } from "./styles";
-import type { Education as EducationEntry } from "../types/cv";
+import { View, Text } from '@react-pdf/renderer';
+import { styles } from './styles';
+import type { Education as EducationEntry } from '../types/cv';
 
 interface Props {
   items: EducationEntry[];
@@ -22,7 +22,7 @@ export default function Education({ items }: Props) {
           </View>
           <Text style={styles.entrySubtitle}>
             {edu.institution}
-            {edu.gpa ? ` · GPA: ${edu.gpa}` : ""}
+            {edu.gpa ? ` · GPA: ${edu.gpa}` : ''}
           </Text>
           {edu.highlights?.map((point, j) => (
             <View key={j} style={styles.bulletRow}>

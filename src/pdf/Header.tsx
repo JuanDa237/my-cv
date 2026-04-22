@@ -1,9 +1,9 @@
-import { View, Text } from "@react-pdf/renderer";
-import { styles } from "./styles";
-import type { CVData } from "../types/cv";
+import { View, Text } from '@react-pdf/renderer';
+import { styles } from './styles';
+import type { CVData } from '../types/cv';
 
 interface Props {
-  data: Pick<CVData, "name" | "title" | "contact">;
+  data: Pick<CVData, 'name' | 'title' | 'contact'>;
 }
 
 export default function Header({ data }: Props) {
@@ -24,7 +24,7 @@ export default function Header({ data }: Props) {
       <Text style={styles.jobTitle}>{title}</Text>
       <View style={styles.contactRow}>
         {contactParts.map((item, i) => (
-          <View key={i} style={{ flexDirection: "row" }}>
+          <View key={i} style={{ flexDirection: 'row' }}>
             {i > 0 && <Text style={styles.contactSeparator}> · </Text>}
             <Text style={styles.contactItem}>{item}</Text>
           </View>

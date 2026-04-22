@@ -1,6 +1,6 @@
-import { View, Text } from "@react-pdf/renderer";
-import { styles } from "./styles";
-import type { Experience as ExperienceEntry } from "../types/cv";
+import { View, Text } from '@react-pdf/renderer';
+import { styles } from './styles';
+import type { Experience as ExperienceEntry } from '../types/cv';
 
 interface Props {
   items: ExperienceEntry[];

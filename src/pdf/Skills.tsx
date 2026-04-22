@@ -1,6 +1,6 @@
-import { View, Text } from "@react-pdf/renderer";
-import { styles } from "./styles";
-import type { SkillCategory } from "../types/cv";
+import { View, Text } from '@react-pdf/renderer';
+import { styles } from './styles';
+import type { SkillCategory } from '../types/cv';
 
 interface Props {
   items: SkillCategory[];
@@ -13,7 +13,7 @@ export default function Skills({ items }: Props) {
       {items.map((group, i) => (
         <View key={i} style={styles.skillRow}>
           <Text style={styles.skillCategory}>{group.category}:</Text>
-          <Text style={styles.skillItems}>{group.items.join(", ")}</Text>
+          <Text style={styles.skillItems}>{group.items.join(', ')}</Text>
         </View>
       ))}
     </View>
