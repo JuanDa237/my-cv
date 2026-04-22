@@ -16,8 +16,7 @@ export default function CVDocument({ data }: Props) {
       <Page size="A4" style={styles.page}>
         <Header data={data} />
         {data.summary && (
-          <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Summary</Text>
+          <View style={{ marginBottom: 10 }}>
             <Text style={styles.summaryText}>{data.summary}</Text>
           </View>
         )}

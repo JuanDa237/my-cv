@@ -1,6 +1,7 @@
 {
   "name": "Juan Gaviria",
   "title": "Full Stack Software Developer",
+  "summary": "Experienced Full Stack Developer with a strong background in building scalable web applications using modern technologies. Proficient in TypeScript, React, Node.js, and cloud services. Passionate about clean code, performance optimization, and mentoring junior developers.",
   "contact": {
     "email": "juan.gaviria@example.com",
     "phone": "+1 (555) 123-4567",
@@ -58,19 +59,47 @@
   "skills": [
     {
       "category": "Languages",
-      "items": ["TypeScript", "JavaScript", "Python", "SQL", "HTML", "CSS"]
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "category": "Frameworks & Libraries",
-      "items": ["React", "Next.js", "Node.js", "Express", "Astro", "Tailwind CSS"]
+      "items": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "Astro",
+        "Tailwind CSS"
+      ]
     },
     {
       "category": "Databases & Infrastructure",
-      "items": ["PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "GitHub Actions"]
+      "items": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "AWS",
+        "GitHub Actions"
+      ]
     },
     {
       "category": "Tools & Practices",
-      "items": ["Git", "REST APIs", "GraphQL", "CI/CD", "Agile/Scrum", "TDD"]
+      "items": [
+        "Git",
+        "REST APIs",
+        "GraphQL",
+        "CI/CD",
+        "Agile/Scrum",
+        "TDD"
+      ]
     }
   ]
 }
