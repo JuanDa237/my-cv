@@ -62,8 +62,6 @@ export const styles = StyleSheet.create({
     fontFamily: 'Helvetica-Bold',
     fontSize: 10,
     color: COLORS.heading,
-    textTransform: 'uppercase',
-    letterSpacing: 0.8,
     marginBottom: 4,
     paddingBottom: 3,
     borderBottomWidth: 1,

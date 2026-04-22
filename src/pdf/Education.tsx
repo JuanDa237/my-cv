@@ -14,7 +14,7 @@ export default function Education({ items }: Props) {
         <View key={i} style={styles.entryWrapper}>
           <View style={styles.entryHeader}>
             <Text style={styles.entryTitle}>
-              {edu.degree} in {edu.field}
+              {edu.field && edu.field !== edu.degree ? `${edu.degree} in ${edu.field}` : edu.degree}
             </Text>
             <Text style={styles.entryDates}>
               {edu.startDate} – {edu.endDate}

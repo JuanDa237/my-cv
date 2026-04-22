@@ -1,104 +1,102 @@
 {
   "name": "Juan Gaviria",
-  "title": "Full Stack Software Developer",
-  "summary": "Experienced Full Stack Developer with a strong background in building scalable web applications using modern technologies. Proficient in TypeScript, React, Node.js, and cloud services. Passionate about clean code, performance optimization, and mentoring junior developers.",
+  "title": "Full Stack Developer",
+  "summary": "Full Stack Developer with 3+ years of experience building web applications, APIs, and microservices with JavaScript, TypeScript, Node.js, React, NestJs, and SQL databases. Delivered freelance solutions across 4 client projects and contributed to business-critical systems, CI/CD pipelines, and automated testing. Known for problem solving, adaptability, collaboration, and clear communication in distributed teams.",
   "contact": {
     "email": "juan.gaviria@example.com",
     "phone": "+1 (555) 123-4567",
-    "location": "City, Country",
+    "location": "Medellín, Colombia",
     "linkedin": "linkedin.com/in/juan-gaviria",
     "github": "github.com/juan-gaviria"
   },
   "experience": [
     {
-      "title": "Senior Full Stack Developer",
-      "company": "Tech Company Inc.",
-      "location": "City, Country",
-      "startDate": "Jan 2023",
+      "title": "Junior Developer",
+      "company": "Cloudworkz",
+      "location": "London, England (Virtual)",
+      "startDate": "Jun 2022",
       "endDate": "Present",
       "highlights": [
-        "Led development of a microservices architecture serving 50K+ daily active users, reducing API response times by 40%",
-        "Designed and implemented CI/CD pipelines with GitHub Actions, cutting deployment time from 2 hours to 15 minutes",
-        "Mentored a team of 4 junior developers through code reviews and pair programming sessions"
+        "Contributed to business applications that integrated internal processes using Node.js, NestJs, React, and PostgreSQL",
+        "Automated and optimized marketplace sales business logic, reducing manual effort and improving team efficiency",
+        "Implemented CI/CD pipelines and supported 3 testing layers: unit, integration, and end-to-end testing"
       ]
     },
     {
-      "title": "Full Stack Developer",
-      "company": "Startup Labs",
-      "location": "City, Country",
+      "title": "Full Stack Freelance Developer",
+      "company": "Multiple Projects",
+      "location": "Medellín, Colombia",
       "startDate": "Jun 2021",
-      "endDate": "Dec 2022",
+      "endDate": "May 2022",
       "highlights": [
-        "Built a real-time dashboard using React, TypeScript, and WebSockets, handling 10K concurrent connections",
-        "Developed RESTful APIs with Node.js and Express, integrated with PostgreSQL and Redis caching layer",
-        "Improved application performance by implementing lazy loading and code splitting, reducing initial load time by 60%"
-      ]
-    },
-    {
-      "title": "Junior Developer",
-      "company": "Digital Agency Co.",
-      "location": "City, Country",
-      "startDate": "Jan 2020",
-      "endDate": "May 2021",
-      "highlights": [
-        "Developed and maintained 10+ client-facing web applications using React and Vue.js",
-        "Implemented responsive designs from Figma mockups with pixel-perfect accuracy",
-        "Wrote unit and integration tests achieving 85% code coverage across projects"
+        "Delivered full stack solutions across 4 freelance client projects in retail, real estate, logistics, and SaaS environments",
+        "Del Perrero: Designed and developed a POS system for sales and stock management using Angular 2+, Node.js, Express, and MySQL",
+        "Javier Propiedades: Built and maintained a property listing website and integrated web scraping from partner sites to expand listings and visibility",
+        "EFY: Contributed to microservices development with Node.js, NestJs, and React, while also supporting coworkers on the admin application",
+        "Ferbienes: Contributed to a C# WMS platform that supported thousands of daily receiving, dispatch, and replenishment operations"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Technology",
-      "degree": "Bachelor of Science",
-      "field": "Computer Science",
-      "startDate": "2016",
-      "endDate": "2020"
+      "institution": "Metropolitan Institute of Medellín (ITM)",
+      "degree": "Systems Engineering",
+      "field": "Systems Engineering",
+      "startDate": "Feb 2020",
+      "endDate": "Jan 2026",
+      "gpa": "4.4/5.0"
     }
   ],
   "skills": [
     {
       "category": "Languages",
       "items": [
-        "TypeScript",
         "JavaScript",
-        "Python",
+        "TypeScript",
+        "C#",
         "SQL",
         "HTML",
         "CSS"
       ]
     },
     {
-      "category": "Frameworks & Libraries",
+      "category": "Backend",
       "items": [
-        "React",
-        "Next.js",
         "Node.js",
         "Express",
-        "Astro",
-        "Tailwind CSS"
-      ]
-    },
-    {
-      "category": "Databases & Infrastructure",
-      "items": [
-        "PostgreSQL",
-        "MongoDB",
-        "Redis",
-        "Docker",
-        "AWS",
-        "GitHub Actions"
-      ]
-    },
-    {
-      "category": "Tools & Practices",
-      "items": [
-        "Git",
+        "NestJs",
         "REST APIs",
-        "GraphQL",
+        "Microservices"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "Angular 2+",
+        "TypeScript",
+        "HTML/CSS",
+        "Responsive Design"
+      ]
+    },
+    {
+      "category": "Databases & Tools",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "Git",
         "CI/CD",
-        "Agile/Scrum",
-        "TDD"
+        "Web Scraping"
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "items": [
+        "Problem Solving",
+        "Communication",
+        "Collaboration",
+        "Adaptability",
+        "Teamwork"
       ]
     }
   ]
