@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  background: #f0f0f0;
+  color: #111;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100svh;
+  padding: 24px 16px;
+  gap: 16px;
+}
