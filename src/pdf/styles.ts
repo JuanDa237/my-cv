@@ -17,9 +17,9 @@ export const styles = StyleSheet.create({
     fontFamily: 'Helvetica',
     fontSize: 10,
     color: COLORS.body,
-    paddingTop: 40,
-    paddingBottom: 40,
-    paddingHorizontal: 48,
+    paddingTop: 25,
+    paddingBottom: 25,
+    paddingHorizontal: 30,
     lineHeight: 1.4,
   },
 
@@ -114,6 +114,19 @@ export const styles = StyleSheet.create({
     color: COLORS.body,
     flex: 1,
     lineHeight: 1.45,
+  },
+
+  // ── Tools ────────────────────────────────────────────────────────────────
+  toolsText: {
+    fontFamily: 'Helvetica',
+    fontSize: 9,
+    color: COLORS.muted,
+    marginTop: 3,
+    marginBottom: 0,
+  },
+  toolsLabel: {
+    fontFamily: 'Helvetica-Bold',
+    color: COLORS.muted,
   },
 
   // ── Skills ────────────────────────────────────────────────────────────────

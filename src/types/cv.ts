@@ -4,7 +4,7 @@ export interface ContactInfo {
   location: string;
   linkedin?: string;
   github?: string;
-  website?: string;
+  web?: string;
 }
 
 export interface Experience {
@@ -14,6 +14,7 @@ export interface Experience {
   startDate: string;
   endDate: string;
   highlights: string[];
+  tools?: string[];
 }
 
 export interface Education {
@@ -38,5 +39,5 @@ export interface CVData {
   summary?: string;
   experience: Experience[];
   education: Education[];
-  skills: SkillCategory[];
+  skills?: SkillCategory[];
 }

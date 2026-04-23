@@ -27,6 +27,11 @@ export default function Experience({ items }: Props) {
               <Text style={styles.bulletText}>{point}</Text>
             </View>
           ))}
+          {job.tools && job.tools.length > 0 && (
+            <Text style={styles.toolsText}>
+              <Text style={styles.toolsLabel}>Tools/Skills:</Text> {job.tools.join(', ')}
+            </Text>
+          )}
         </View>
       ))}
     </View>

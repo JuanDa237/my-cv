@@ -3,10 +3,14 @@ import { styles } from './styles';
 import type { SkillCategory } from '../types/cv';
 
 interface Props {
-  items: SkillCategory[];
+  items?: SkillCategory[];
 }
 
 export default function Skills({ items }: Props) {
+  if (!items || items.length === 0) {
+    return null;
+  }
+
   return (
     <View style={styles.section}>
       <Text style={styles.sectionTitle}>Skills</Text>

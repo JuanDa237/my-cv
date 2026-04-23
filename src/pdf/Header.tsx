@@ -10,12 +10,12 @@ export default function Header({ data }: Props) {
   const { name, title, contact } = data;
 
   const contactItems = [
+    { text: contact.web, href: contact.web ? `https://${contact.web}` : null },
+    { text: contact.linkedin, href: contact.linkedin ? `https://${contact.linkedin}` : null },
+    { text: contact.github, href: contact.github ? `https://${contact.github}` : null },
+    { text: contact.location, href: null },
     { text: contact.email, href: `mailto:${contact.email}` },
     { text: contact.phone, href: `tel:${contact.phone}` },
-    { text: contact.location, href: null },
-    { text: contact.linkedin, href: contact.linkedin },
-    { text: contact.github, href: contact.github },
-    { text: contact.website, href: contact.website },
   ].filter(item => item.text);
 
   return (

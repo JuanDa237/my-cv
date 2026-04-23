@@ -1,103 +1,106 @@
 {
-  "name": "Juan Gaviria",
-  "title": "Full Stack Developer",
-  "summary": "Full Stack Developer with 3+ years of experience building web applications, APIs, and microservices with JavaScript, TypeScript, Node.js, React, NestJs, and SQL databases. Delivered freelance solutions across 4 client projects and contributed to business-critical systems, CI/CD pipelines, and automated testing. Known for problem solving, adaptability, collaboration, and clear communication in distributed teams.",
+  "name": "Juan David Gaviria Correa",
+  "title": "Backend-Focused Full Stack Developer",
+  "summary": "Full Stack Developer with 5 years of experience building and optimizing scalable web applications using Node.js, NestJS, and React. Skilled in system design, workflow automation, and CI/CD optimization, with experience delivering high-impact solutions in distributed and production-critical environments.",
   "contact": {
-    "email": "juan.gaviria@example.com",
-    "phone": "+1 (555) 123-4567",
+    "github": "github.com/JuanDa237",
+    "linkedin": "linkedin.com/in/gaviria-juan",
     "location": "Medellín, Colombia",
-    "linkedin": "linkedin.com/in/juan-gaviria",
-    "github": "github.com/juan-gaviria"
+    "email": "juandavid200301@hotmail.com",
+    "phone": "+57 312 6577911"
   },
   "experience": [
     {
-      "title": "Junior Developer",
-      "company": "Cloudworkz",
-      "location": "London, England (Virtual)",
-      "startDate": "Jun 2022",
+      "title": "Full Stack Developer",
+      "company": "Inmel Ingeniería",
+      "location": "Medellín, Colombia (Remote)",
+      "startDate": "Oct 2023",
       "endDate": "Present",
       "highlights": [
-        "Contributed to business applications that integrated internal processes using Node.js, NestJs, React, and PostgreSQL",
-        "Automated and optimized marketplace sales business logic, reducing manual effort and improving team efficiency",
-        "Implemented CI/CD pipelines and supported 3 testing layers: unit, integration, and end-to-end testing"
+        "Developed features for a Facility Management System (FMS) supporting 120+ engineering projects across 3 countries and 30+ enterprise clients",
+        "Designed offline-first functionality enabling engineering teams to operate in low-connectivity environments, supporting ~70% of teams.",
+        "Implemented digital signature workflows, generating estimated savings of $120K+ monthly ($1,000+ per project across 120+ projects) by accelerating approvals and reducing paper-based processes",
+        "Led adoption of internal IT tools across a 35-person team, improving ~15 Jira workflows through templates and better documentation, requiring strong communication and change management across teams",
+        "Automated deployment processes in collaboration with the infrastructure team, reducing release turnaround time from 4 hours to 5 minutes."
+      ],
+      "tools": [
+        "JavaScript",
+        "Node.js",
+        "NestJS",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Prisma ORM",
+        "PostgreSQL",
+        "C#",
+        ".NET",
+        "AWS",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Cloudworkz",
+      "location": "London, England (Remote)",
+      "startDate": "Jun 2022",
+      "endDate": "Oct 2023",
+      "highlights": [
+        "Integrated the sales pipeline with HubSpot, Zapier, DocuSign, and SendGrid, automating qualification and follow-up for ~25 businesses daily (750+ monthly)",
+        "Built web scraping and SEO analysis automation to evaluate ~25 buying-intent businesses per day, feeding qualified prospects directly into the sales pipeline",
+        "Applied analytical thinking to process and analyze large-scale business data in BigQuery, identifying and prioritizing potential clients",
+        "Built CI/CD pipelines and supported testing across unit, integration, and end-to-end levels."
+      ],
+      "tools": [
+        "JavaScript",
+        "Node.js",
+        "NestJS",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Prisma ORM",
+        "PostgreSQL",
+        "CI/CD",
+        "Web Scraping",
+        "SEO"
       ]
     },
     {
       "title": "Full Stack Freelance Developer",
       "company": "Multiple Projects",
-      "location": "Medellín, Colombia",
+      "location": "Medellín, Colombia (Remote)",
       "startDate": "Jun 2021",
       "endDate": "May 2022",
       "highlights": [
         "Delivered full stack solutions across 4 freelance client projects in retail, real estate, logistics, and SaaS environments",
-        "Del Perrero: Designed and developed a POS system for sales and stock management using Angular 2+, Node.js, Express, and MySQL",
-        "Javier Propiedades: Built and maintained a property listing website and integrated web scraping from partner sites to expand listings and visibility",
-        "EFY: Contributed to microservices development with Node.js, NestJs, and React, while also supporting coworkers on the admin application",
-        "Ferbienes: Contributed to a C# WMS platform that supported thousands of daily receiving, dispatch, and replenishment operations"
+        "Del Perrero: Built a POS system used for daily sales and inventory tracking, improving operational efficiency for a retail business",
+        "Javier Propiedades: Built a property listings site with partner-site scraping to expand inventory and visibility",
+        "EFY: Contributed to microservices for an on-demand beauty services app with real-time location, payments, and notifications",
+        "Ferbienes: Built NestJS microservices and APIs supporting thousands of daily warehouse operations in a WMS app"
+      ],
+      "tools": [
+        "C#",
+        ".NET",
+        "JavaScript",
+        "Node.js",
+        "NestJS",
+        "Express",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Prisma ORM",
+        "PostgreSQL",
+        "MySQL"
       ]
     }
   ],
   "education": [
     {
       "institution": "Metropolitan Institute of Medellín (ITM)",
-      "degree": "Systems Engineering",
-      "field": "Systems Engineering",
+      "degree": "Bachelor's in Systems Engineering",
+      "field": "Bachelor's in Systems Engineering",
       "startDate": "Feb 2020",
       "endDate": "Jan 2026",
-      "gpa": "4.4/5.0"
-    }
-  ],
-  "skills": [
-    {
-      "category": "Languages",
-      "items": [
-        "JavaScript",
-        "TypeScript",
-        "C#",
-        "SQL",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "category": "Backend",
-      "items": [
-        "Node.js",
-        "Express",
-        "NestJs",
-        "REST APIs",
-        "Microservices"
-      ]
-    },
-    {
-      "category": "Frontend",
-      "items": [
-        "React",
-        "Angular 2+",
-        "TypeScript",
-        "HTML/CSS",
-        "Responsive Design"
-      ]
-    },
-    {
-      "category": "Databases & Tools",
-      "items": [
-        "MySQL",
-        "PostgreSQL",
-        "Git",
-        "CI/CD",
-        "Web Scraping"
-      ]
-    },
-    {
-      "category": "Soft Skills",
-      "items": [
-        "Problem Solving",
-        "Communication",
-        "Collaboration",
-        "Adaptability",
-        "Teamwork"
-      ]
+      "gpa": "4.4/5.0 · Graduated"
     }
   ]
 }
