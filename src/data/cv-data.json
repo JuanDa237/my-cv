@@ -1,7 +1,10 @@
 {
   "name": "Juan David Gaviria Correa",
-  "title": "Backend-Focused Full Stack Developer",
-  "summary": "Full Stack Developer with 5 years of experience building and optimizing scalable web applications using Node.js, NestJS, and React. Skilled in system design, workflow automation, and CI/CD optimization, with experience delivering high-impact solutions in distributed and production-critical environments.",
+  "title": "Full Stack Developer",
+  "aboutMe": {
+    "title": "About Me",
+    "content": "Curiosity and a constant drive to improve shape how I approach both challenges and everyday life. Whether working through complex situations or exploring new ideas, I tend to stay patient, focused, and solution-oriented. Video games have played a big role in developing my ability to think strategically, adapt quickly, and communicate effectively in team-based environments, especially when facing unexpected obstacles. Swimming, on the other hand, helps me stay disciplined and consistent while giving me space to reset and maintain balance. I value steady growth, meaningful connections, and approaching each challenge with a clear mind and a collaborative mindset."
+  },
   "contact": {
     "github": "github.com/JuanDa237",
     "linkedin": "linkedin.com/in/gaviria-juan",
@@ -25,16 +28,17 @@
       ],
       "tools": [
         "JavaScript",
+        "TypeScript",
         "Node.js",
         "NestJS",
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Prisma ORM",
-        "PostgreSQL",
         "C#",
         ".NET",
+        "React",
+        "Next.js",
         "AWS",
+        "Playwright",
+        "PostgreSQL",
+        "TypeORM",
         "CI/CD"
       ]
     },
@@ -52,14 +56,15 @@
       ],
       "tools": [
         "JavaScript",
+        "TypeScript",
         "Node.js",
         "NestJS",
         "React",
         "Next.js",
-        "TypeScript",
-        "Prisma ORM",
+        "GCP",
+        "Jest",
         "PostgreSQL",
-        "CI/CD",
+        "Docker",
         "Web Scraping",
         "SEO"
       ]
@@ -78,18 +83,16 @@
         "Ferbienes: Built NestJS microservices and APIs supporting thousands of daily warehouse operations in a WMS app"
       ],
       "tools": [
-        "C#",
-        ".NET",
         "JavaScript",
+        "TypeScript",
         "Node.js",
         "NestJS",
-        "Express",
+        "C#",
+        ".NET",
         "React",
         "Next.js",
-        "TypeScript",
-        "Prisma ORM",
         "PostgreSQL",
-        "MySQL"
+        "TypeORM"
       ]
     }
   ],
@@ -102,5 +105,9 @@
       "endDate": "Jan 2026",
       "gpa": "4.4/5.0 · Graduated"
     }
+  ],
+  "languages": [
+    "English (B2)",
+    "Spanish (Native)"
   ]
 }

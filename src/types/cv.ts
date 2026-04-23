@@ -32,12 +32,19 @@ export interface SkillCategory {
   items: string[];
 }
 
+export interface AboutMe {
+  title: string;
+  content: string;
+}
+
 export interface CVData {
   name: string;
   title: string;
   contact: ContactInfo;
+  aboutMe?: AboutMe;
   summary?: string;
   experience: Experience[];
   education: Education[];
   skills?: SkillCategory[];
+  languages?: string[];
 }

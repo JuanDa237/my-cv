@@ -15,30 +15,30 @@ export const styles = StyleSheet.create({
   // ── Page ──────────────────────────────────────────────────────────────────
   page: {
     fontFamily: 'Helvetica',
-    fontSize: 10,
+    fontSize: 10.3,
     color: COLORS.body,
-    paddingTop: 25,
-    paddingBottom: 25,
-    paddingHorizontal: 30,
-    lineHeight: 1.4,
+    paddingTop: 22,
+    paddingBottom: 22,
+    paddingHorizontal: 26,
+    lineHeight: 1.36,
   },
 
   // ── Header ────────────────────────────────────────────────────────────────
   headerSection: {
-    marginBottom: 14,
+    marginBottom: 12,
   },
   name: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 22,
+    fontSize: 21,
     color: COLORS.name,
-    letterSpacing: 0.4,
-    marginBottom: 10,
+    letterSpacing: 0.3,
+    marginBottom: 7,
   },
   jobTitle: {
     fontFamily: 'Helvetica',
     fontSize: 11,
     color: COLORS.muted,
-    marginBottom: 8,
+    marginBottom: 6,
   },
   contactRow: {
     flexDirection: 'row',
@@ -46,31 +46,31 @@ export const styles = StyleSheet.create({
     gap: 4,
   },
   contactItem: {
-    fontSize: 9,
+    fontSize: 9.3,
     color: COLORS.muted,
   },
   contactSeparator: {
-    fontSize: 9,
+    fontSize: 9.3,
     color: COLORS.divider,
   },
 
   // ── Section ───────────────────────────────────────────────────────────────
   section: {
-    marginBottom: 12,
+    marginBottom: 9,
   },
   sectionTitle: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 10,
+    fontSize: 10.2,
     color: COLORS.heading,
     marginBottom: 4,
-    paddingBottom: 3,
+    paddingBottom: 2.5,
     borderBottomWidth: 1,
     borderBottomColor: COLORS.divider,
   },
 
   // ── Experience & Education entries ────────────────────────────────────────
   entryWrapper: {
-    marginBottom: 8,
+    marginBottom: 6,
   },
   entryHeader: {
     flexDirection: 'row',
@@ -90,22 +90,22 @@ export const styles = StyleSheet.create({
     textAlign: 'right',
   },
   entrySubtitle: {
-    fontSize: 9,
+    fontSize: 9.3,
     color: COLORS.muted,
-    marginBottom: 3,
+    marginBottom: 2.5,
   },
 
   // ── Bullet points ─────────────────────────────────────────────────────────
   bulletRow: {
     flexDirection: 'row',
-    marginBottom: 2,
-    paddingLeft: 2,
+    marginBottom: 1.5,
+    paddingLeft: 1,
   },
   bullet: {
     fontFamily: 'Helvetica',
-    fontSize: 10,
+    fontSize: 9.7,
     color: COLORS.muted,
-    width: 12,
+    width: 10,
     marginTop: 0,
   },
   bulletText: {
@@ -113,7 +113,7 @@ export const styles = StyleSheet.create({
     fontSize: 9.5,
     color: COLORS.body,
     flex: 1,
-    lineHeight: 1.45,
+    lineHeight: 1.34,
   },
 
   // ── Tools ────────────────────────────────────────────────────────────────
@@ -121,7 +121,7 @@ export const styles = StyleSheet.create({
     fontFamily: 'Helvetica',
     fontSize: 9,
     color: COLORS.muted,
-    marginTop: 3,
+    marginTop: 2.5,
     marginBottom: 0,
   },
   toolsLabel: {
@@ -132,7 +132,7 @@ export const styles = StyleSheet.create({
   // ── Skills ────────────────────────────────────────────────────────────────
   skillRow: {
     flexDirection: 'row',
-    marginBottom: 4,
+    marginBottom: 2.5,
     flexWrap: 'wrap',
   },
   skillCategory: {
@@ -154,6 +154,6 @@ export const styles = StyleSheet.create({
     fontFamily: 'Helvetica',
     fontSize: 9.5,
     color: COLORS.body,
-    lineHeight: 1.5,
+    lineHeight: 1.4,
   },
 });
