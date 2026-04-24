@@ -47,7 +47,7 @@
       "company": "Cloudworkz",
       "location": "London, England (Remote)",
       "startDate": "Jun 2022",
-      "endDate": "Oct 2023",
+      "endDate": "Sep 2023",
       "highlights": [
         "Integrated the sales pipeline with HubSpot, Zapier, DocuSign, and SendGrid, automating qualification and follow-up for ~25 businesses daily (750+ monthly)",
         "Built web scraping and SEO analysis automation to evaluate ~25 buying-intent businesses per day, feeding qualified prospects directly into the sales pipeline",
@@ -70,17 +70,17 @@
       ]
     },
     {
-      "title": "Full Stack Freelance Developer",
-      "company": "Multiple Projects",
+      "title": "Full Stack Developer",
+      "company": "Multiple Clients",
       "location": "Medellín, Colombia (Remote)",
       "startDate": "Jun 2021",
       "endDate": "May 2022",
       "highlights": [
-        "Delivered full stack solutions across 4 freelance client projects in retail, real estate, logistics, and SaaS environments",
-        "Del Perrero: Built a POS system used for daily sales and inventory tracking, improving operational efficiency for a retail business",
-        "Javier Propiedades: Built a property listings site with partner-site scraping to expand inventory and visibility",
+        "Delivered full stack solutions across freelance client projects in retail, real estate, logistics, SaaS environments, among others",
         "EFY: Contributed to microservices for an on-demand beauty services app with real-time location, payments, and notifications",
-        "Ferbienes: Built NestJS microservices and APIs supporting thousands of daily warehouse operations in a WMS app"
+        "Ferbienes: Built NestJS microservices and APIs supporting thousands of daily warehouse operations in a WMS app",
+        "Del Perrero: Built a POS system used for daily sales and inventory tracking, improving operational efficiency for a retail business",
+        "Javier Propiedades: Built a property listings site with partner-site scraping to expand inventory and visibility"
       ],
       "tools": [
         "JavaScript",
