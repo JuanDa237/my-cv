@@ -1,0 +1,109 @@
+{
+    "name": "Juan David Gaviria Correa",
+    "title": "Desarrollador Full Stack",
+    "aboutMe": {
+        "title": "Sobre Mí",
+        "content": "La curiosidad y el deseo de mejorar guían mi forma de afrontar desafíos y aprender constantemente. Suelo mantenerme paciente, enfocado y orientado a soluciones, incluso en situaciones complejas. Los videojuegos han fortalecido mi pensamiento estratégico, mi capacidad de adaptación y mi comunicación en equipo. La natación me ayuda a mantener disciplina, constancia y equilibrio. Valoro el crecimiento continuo, las conexiones significativas y enfrentar cada reto con una mentalidad colaborativa."
+    },
+    "contact": {
+        "github": "github.com/JuanDa237",
+        "linkedin": "linkedin.com/in/gaviria-juan",
+        "location": "Medellín, Colombia",
+        "email": "juandavid200301@hotmail.com",
+        "phone": "+57 312 6577911"
+    },
+    "experience": [
+        {
+            "title": "Desarrollador Full Stack",
+            "company": "Inmel Ingeniería",
+            "location": "Medellín, Colombia (Remoto)",
+            "startDate": "Oct 2023",
+            "endDate": "Actualidad",
+            "highlights": [
+                "Desarrollé funcionalidades para un Sistema de Gestión de Instalaciones (FMS) que soporta más de 120 proyectos de ingeniería en 3 países y más de 30 clientes empresariales",
+                "Diseñé funcionalidad offline-first que permitió a equipos de ingeniería operar en entornos de baja conectividad, beneficiando aproximadamente al 70% de los equipos.",
+                "Implementé flujos de firma digital, generando ahorros estimados de más de $120K mensuales (más de $1,000 por proyecto en más de 120 proyectos) al acelerar aprobaciones y reducir procesos basados en papel",
+                "Lideré la adopción de herramientas internas de TI en un equipo de 35 personas, mejorando alrededor de 15 flujos de Jira mediante plantillas y mejor documentación, lo que requirió una comunicación sólida y gestión del cambio entre equipos",
+                "Automaticé procesos de despliegue en colaboración con el equipo de infraestructura, reduciendo el tiempo de liberación de 4 horas a 5 minutos."
+            ],
+            "tools": [
+                "JavaScript",
+                "TypeScript",
+                "Node.js",
+                "NestJS",
+                "React",
+                "Next.js",
+                "AWS",
+                "Playwright",
+                "PostgreSQL",
+                "TypeORM",
+                "CI/CD"
+            ]
+        },
+        {
+            "title": "Desarrollador Full Stack",
+            "company": "Cloudworkz",
+            "location": "Londres, Inglaterra (Remoto)",
+            "startDate": "Jun 2022",
+            "endDate": "Sep 2023",
+            "highlights": [
+                "Integré el pipeline de ventas con HubSpot, Zapier, DocuSign y SendGrid, automatizando la calificación y el seguimiento para aproximadamente 25 negocios diarios (más de 750 mensuales)",
+                "Construí automatizaciones de web scraping y análisis SEO para evaluar alrededor de 25 negocios con intención de compra por día, alimentando prospectos calificados directamente al pipeline de ventas",
+                "Apliqué pensamiento analítico para procesar y analizar datos empresariales a gran escala en BigQuery, identificando y priorizando clientes potenciales",
+                "Construí pipelines de CI/CD y apoyé pruebas en niveles unitario, de integración y end-to-end."
+            ],
+            "tools": [
+                "JavaScript",
+                "TypeScript",
+                "Node.js",
+                "NestJS",
+                "React",
+                "Next.js",
+                "GCP",
+                "Jest",
+                "PostgreSQL",
+                "Docker",
+                "Web Scraping",
+                "SEO"
+            ]
+        },
+        {
+            "title": "Desarrollador Full Stack",
+            "company": "Múltiples Clientes",
+            "location": "Medellín, Colombia (Remoto)",
+            "startDate": "Jun 2021",
+            "endDate": "May 2022",
+            "highlights": [
+                "Entregué soluciones full stack en proyectos de clientes en entornos de retail, bienes raíces, logística, SaaS, entre otros",
+                "EFY: Contribuí a microservicios para una app de servicios de belleza bajo demanda con ubicación en tiempo real, pagos y notificaciones",
+                "Ferbienes: Construí microservicios y APIs con NestJS que soportaban miles de operaciones diarias de bodega en una app WMS",
+                "Del Perrero: Construí un sistema POS utilizado para ventas diarias y control de inventario, mejorando la eficiencia operativa del negocio",
+                "Javier Propiedades: Construí un sitio de listados de propiedades con scraping de sitios aliados para ampliar inventario y visibilidad"
+            ],
+            "tools": [
+                "JavaScript",
+                "TypeScript",
+                "Node.js",
+                "NestJS",
+                "React",
+                "Next.js",
+                "PostgreSQL",
+                "TypeORM"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Instituto Tecnológico Metropolitano de Medellín (ITM)",
+            "degree": "Ingeniería de Sistemas",
+            "field": "Ingeniería de Sistemas",
+            "startDate": "Feb 2020",
+            "endDate": "Jan 2026",
+            "gpa": "4.4/5.0 · Graduado"
+        }
+    ],
+    "languages": [
+        "Inglés (B2)",
+        "Español (Nativo)"
+    ]
+}
